@@ -1,0 +1,178 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+body, html {
+  margin: 0;
+}
+
+body {
+  background-image: url('./1980s.jpg');
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+}
+
+.xbutton {
+  font-size: 60px !important;
+  text-align: right !important;
+  font-family: 'Helvetica Neue';
+  color: #FFFFFF;
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  margin-right: 50px !important;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+  /*background-color: rgba(0,0,0,.8);*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+body, html {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+p {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  font-size: 50px !important;
+  text-align: center !important;
+  margin-left: 15px !important;
+  padding: 0 !important;
+}
+
+video, iframe {
+  width: 900px !important;
+  height: 750px !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 50px !important;
+  padding-top: 50px !important;
+}
+
+.caption {
+  font-family: 'Helvetica Neue';
+  size: 15px;
+  font-style: italic;
+  color: white;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.description {
+  font-family: 'Helvetica Neue';
+  text-align: left;
+  color: white;
+  font-size: 34px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: center;
+}
+
+#topWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 530px;
+}
+
+#jimmyCarter {
+  width: 300px;
+  height: 360px;
+  margin-right: 18px;
+}
+
+#signing {
+  width: 530px;
+  height: 360px;
+  margin-left: 5px;
+}
+
+#learnMore {
+  /*margin-left: calc(50% - 50px + 202.5px);*/
+  margin-left: 250px;
+  margin-top: 190px;
+  width: 580px;
+  height: 145px;
+}
+
+#flags {
+  width: 415px;
+  height: 450px;
+  margin-left: 332.5px;
+  margin-top: 208px;
+}
+
+#content1 {
+  margin-top: 25%;
+}
+
+#carterDescription {
+  margin-top: 10%;
+}
+
+#signingDescription {
+  margin-top: 10%;
+}
+
+#signingCaption {
+  margin-top: 25%;
+}
+
+#description3 {
+  margin-top: 30% !important;
+}
+
+#play {
+  display: none;
+}
+
+#pause {
+  display: block;
+}
+
+#content3 {
+  margin-top: 50px;
+}
+
+#caption4 {
+  margin-top: 30% !important;
+}
+
+button {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}

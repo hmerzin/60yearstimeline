@@ -1,0 +1,183 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+body, html {
+  margin: 0;
+}
+
+body {
+  background-image: url('./1990s.jpg');
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+}
+
+  /*background-color: rgba(0,0,0,.8);*/
+
+body, html {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+p {
+  margin-top: 10px !important;
+  margin-bottom: 50px !important;
+  font-size: 50px !important;
+  text-align: center !important;
+  margin-left: 15px !important;
+  padding: 0 !important;
+}
+
+video, iframe {
+  width: 900px !important;
+  height: 750px !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 50px !important;
+  padding-top: 50px !important;
+}
+
+.xbutton {
+  font-size: 60px !important;
+  text-align: right !important;
+  font-family: 'Helvetica Neue';
+  color: #FFFFFF;
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  margin-right: 50px !important;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+.caption {
+  font-family: 'Helvetica Neue';
+  size: 15px;
+  font-style: italic;
+  color: white;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.description {
+  font-family: 'Helvetica Neue';
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 40px;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: center;
+}
+
+#signing1 {
+  width: 560px;
+  height: 395px;
+  margin-top: 500px;
+  margin-left: 260px;
+  /*background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+#centerWrapper {
+  margin-top: 155px;
+  display: flex;
+  justify-content: left;
+  margin-left: 110px;
+}
+
+#plane {
+  /*background-color: rgba(0,0,0,0.8);*/
+  width: 425px;
+  height: 235px;
+}
+
+#flag {
+  /*background-color: rgba(0,0,0,0.8);*/
+  width: 416px;
+  height: 235px;
+  margin-left: 15px;
+}
+
+#bottomWrapper {
+  margin-top: 157px;
+  display: flex;
+  justify-content: center;
+}
+
+#clinton {
+  /*background-color: rgba(0,0,0,0.8);*/
+  width: 445px;
+  height: 409px;
+}
+
+#christopher {
+  /*background-color: rgba(0,0,0,0.8);*/
+  width: 379px;
+  height: 409px;
+  margin-left: 25px;
+}
+
+#description1 {
+  margin-top: 10%;
+}
+
+#content1 {
+  margin-top: 100px;
+}
+
+#content2 {
+  margin-top: 25%;
+}
+
+#flagDescription {
+  margin-top: 5%;
+  font-size: 25px;
+}
+
+#flagImage {
+  margin-top: 5%;
+}
+
+#secDescription {
+  margin-top: 5%;
+  font-size: 24px;
+}
+
+#lastCaption {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+#lastDescription {
+  margin-top: 10%;
+}
+
+#secImage {
+  margin-top: 30px;
+}
+
+button {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}

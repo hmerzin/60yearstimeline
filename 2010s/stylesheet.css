@@ -1,0 +1,208 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+body, html {
+  margin: 0;
+}
+
+body {
+  background-image: url('./2010s.jpg');
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+}
+
+  /*background-color: rgba(0,0,0,.8);*/
+
+body, html {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+p {
+  margin-top: 10px !important;
+  margin-bottom: 50px !important;
+  font-size: 50px !important;
+  text-align: center !important;
+  margin-left: 15px !important;
+  padding: 0 !important;
+}
+
+video, iframe {
+  width: 900px !important;
+  height: 750px !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 50px !important;
+  padding-top: 50px !important;
+}
+
+.xbutton {
+  font-size: 60px !important;
+  text-align: right !important;
+  font-family: 'Helvetica Neue';
+  color: #FFFFFF;
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  margin-right: 50px !important;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+#mapPhoto {
+  height: 500px !important;
+}
+
+.caption {
+  font-family: 'Helvetica Neue';
+  size: 15px;
+  font-style: italic;
+  color: white;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.description {
+  font-family: 'Helvetica Neue';
+  text-align: left;
+  color: white;
+  font-size: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: center;
+}
+
+#topWrapper {
+  margin-top: 490px;
+  display: flex;
+  justify-content: center;
+}
+
+#signing {
+  width: 424px;
+  height: 357px;
+  margin-right: 10px;
+}
+
+#summit {
+  width: 409px;
+  height: 357px;
+  margin-left: 10px;
+}
+
+#centerWrapper {
+  margin-top: 147px;
+  display: flex;
+  justify-content: center;
+}
+
+#graphic {
+  width: 409px;
+  height: 355px;
+  margin-right: 10px;
+}
+
+#NKDes {
+  margin-top: 50px;
+}
+
+#presentDay {
+  width: 700px;
+  height: 450px;
+}
+
+#descriptionBig {
+  font-size: 30px;
+}
+
+#woman {
+  width: 419px;
+  height: 355px;
+  margin-left: 11px;
+}
+
+#bottomWrapper {
+  margin-top: 147px;
+  display: flex;
+  justify-content: center;
+}
+
+#group {
+  width: 456px;
+  height: 355px;
+  margin-right: 12px;
+}
+
+#map {
+  width: 372px;
+  height: 279px;
+  margin-left: 11px;
+}
+
+#content1 {
+  margin-top: 40%;
+}
+
+#caption2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#video1 {
+  margin-bottom: 10%;
+}
+
+#content3 {
+  margin-top: 20%;
+}
+
+#signingContent {
+  margin-top: 20%;
+}
+
+#content4 {
+  margin-top: 40%;
+}
+
+#content5 {
+  margin-top: 5%;
+}
+
+#description5 {
+  margin-top: 10%;
+}
+
+#description6 {
+  margin-top: 10%;
+  font-size: 25px;
+}
+
+#content6 {
+  margin-top: 5%;
+}
+
+button {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}

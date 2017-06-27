@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script
+        src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous">
+        </script>
+         <!--  width="1080px" height="1920px"> -->
+            <iframe id="fr" src="./1950s/index.html" width="1080px" height="1920px"> </iframe>
+            <iframe id="fr" src="./1960/index.html" width="1080px" height="1920px"> </iframe>
+            <iframe id="fr" src="./1970s/index.html" width="1080px" height="1920px"> </iframe>
+            <iframe id="fr" src="./1980/index.html" width="1080px" height="1920px"> </iframe>
+            <iframe id="fr" src="./1990s/index.html" width="1080px" height="1920px"> </iframe>
+            <iframe id="fr" src="./2000s/index.html" width="1080px" height="1920px"> </iframe>
+            <iframe id="fr" src="./2010s/index.html" width="1080px" height="1920px"> </iframe>
+        <style>
+            iframe {
+                /*transform: scale(.4);*/
+            }
+            body {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        </style>
+        <script>
+            let frames = document.getElementsByTagName('iframe');
+            frames = Array.from(frames)
+            frames.forEach(fr => {
+                const scale = (window.innerHeight / 1920 - .03);
+                fr.style.transform = 'scale(' + scale + ')';
+                console.log(fr.width);
+                console.log(1080 * scale);
+                fr.style.marginTop = -(1920 - (1920 * scale)) / 2 + 'px';
+                fr.style.marginBottom = -(1920 - (1920 * scale)) / 2 + 'px';
+                fr.style.marginRight = -(1080 - (1080 * scale)) / 2 + 'px';
+                fr.style.marginLeft = -(1080 - (1080 * scale)) / 2 + 'px';
+            });
+
+            
+
+        </script>
+    </body>
+</html>

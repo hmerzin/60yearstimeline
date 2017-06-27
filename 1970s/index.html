@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://content.jwplatform.com/libraries/eVaVDdEN.js" />
+    <script>console.log(jwplayer); jwplayer.key="ABCdeFG123456SeVenABCdeFG123456SeVen==";</script> 
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <div class="modal" id="modal1">
+      <p class="xbutton">x</p>
+      <p class="caption" id="caption1">(Photo: President Nixon and Soviet leader Brezhnev during the latter’s visit to the U.S. in 1973)</p>
+      <div class="modalContent" id="content1">
+        <div id="video1"></div>
+        </div>
+      <div class="description" style="margin-top: 10%; font-size: 50px !important;">President Nixon and Soviet General Secretary Leonid Brezhnev signed the
+
+Anti-Ballistic Missile (ABM) Treaty and interim Strategic Arms Limitation 
+
+Treaty (SALT) I agreement on May 26, 1972.</div>
+      
+    </div>
+
+    <div id="modal2" class="modal">
+      <p class="xbutton">x</p>
+      <p id="lastCaption" class="caption">(Photo:  President Carter and Soviet leader Brezhnev signed Salt II)</p>
+      <div class="modalContent" id="content2">
+        <video width="500" height="400" id="video2">
+          <source src="./1979.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <p class="description">1979 marked the signing of the Strategic Arms Limitation Treaty (SALT) II, which provided for monitoring and verification through national technical means, with a focus on photo-reconnaissance satellites. In addition to provisions of the Treaty which directly addressed the question of verification, other rules on and constraints on specific systems were incorporated into the agreement, specifically for verification purposes.</p>
+    </div>
+
+    <div class="modal" id="modal3">
+      <p class="xbutton">x</p>
+      <div class="modalContent" id="content3">
+        <img src="./1974.png">
+      </div>
+      <p class="caption" id="signingCaption">(Photo: President Ford and Soviet leader Brezhnev Brezhnev signing a joint communique on the SALT treaty in Vladivostok, 23 November 1974)
+</p>
+      <p class="description" id="signingDescription">The Threshold Test Ban Treaty, signed by the United States and the USSR
+
+in July 1974, and the Peaceful Nuclear Explosions Treaty, negotiated and 
+
+signed by the USSR and the United States in May 1976, limited the yield of 
+
+individual nuclear explosions to less than 150 kilotons.  These Treaties 
+
+entered into force in 1990.</p>
+    </div>
+
+    <div class="modal" id="1976modal">
+      <p class="xbutton">x</p>
+      <p class="description" id="aboutexperts">About the Group of Scientific Experts</p>
+      <div class="modalContent" id="audioModal">
+       <!-- <audio src="./1976-VO.wav" preload="auto" id="learnMoreAudio"></audio> -->
+        <div id="learnMoreAudio"></div>
+        <!-- is this here -->
+        <img src="./pause.png" id="pause" width="100" height="100">
+        <img src="./play.png" id="play" width="100" height="100">
+      </div>
+    </div>
+
+    <div id="topContainer">
+      <button id="whispering"></button>
+      <button id="signing"></button>
+    </div>
+
+
+    <button id="learnMore"></button>
+    <button id="handshake"></button>
+
+    
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+
+  </script>
+</html>

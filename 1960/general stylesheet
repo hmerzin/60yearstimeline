@@ -1,0 +1,84 @@
+#learnMore {
+  margin-left: calc(50% - 50px);
+  margin-top: 380px;
+  background-color: rgba(0,0,0,.8);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+#topContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 486px;
+}
+
+#whispering {
+  background-color: rgba(0,0,0,.8);
+  margin-right: 15px;
+  width: 361px;
+  height: 360px;
+}
+
+#signing {
+  width: 460px;
+  height: 360px;
+  margin-left: 15px;
+  background-color: rgba(0,0,0,.8);
+}
+
+#handshake {
+  width: 413px;
+  height: 355px;
+  margin-left: 334px;
+  margin-top: 170px;
+  background-color: rgba(0,0,0,.8);
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+body, html {
+  margin: 0;
+}
+
+body {
+  background-image: url('./1970s.jpg');
+}
+
+* {
+  margin: 0;
+}
+
+.caption {
+  font-family: 'Helvetica Neue';
+  size: 15px;
+  font-style: italic;
+  color: white;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.description {
+  font-family: 'Helvetica Neue';
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: center;
+}

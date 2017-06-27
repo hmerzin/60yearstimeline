@@ -1,0 +1,310 @@
+/*####################################################*/
+/*** AMY SLIDER STYLE 1 / CUSTOM 1  ***/
+/*####################################################*/
+/*SLIDER HOLDER HEIGHT*/
+#ct_amy_main1 {
+    height: 800px;
+}
+/*TITLE AND TEXT FONT SETTINGS*/
+#ct_amy_main1 h2,
+#ct_amy_main1 p {
+    font-weight: 300;
+}
+/*PARAGRAPH FONT SIZE*/
+#ct_amy_main1 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+/*TITLE TEXT COLOR*/
+#ct_amy_main1 .ct_amy_content_title a,
+#ct_amy_main1 .ct_amy_content_title {
+    color: #ffffff;
+}
+/*TITLE BACKGROUND COLOR*/
+#ct_amy_main1 .ct_amy_content_title a {
+    background-color: rgba(56, 56, 56, 0.93);
+    box-shadow: 14px 0 0 rgba(56, 56, 56, 0.93), -14px 0 0 rgba(56, 56, 56, 0.93);
+}
+/*TITLE TEXT COLOR ON HOVER*/
+#ct_amy_main1 ct_amy_figure:hover .ct_amy_content_title a,
+#ct_amy_main1 ct_amy_figure:hover .ct_amy_content_title {
+    color: #ffffff!important;
+}
+/*TITLE BACKGROUND COLOR ON HOVER*/
+#ct_amy_main1 ct_amy_figure:hover .ct_amy_content_title a {
+    background-color: rgba(187, 139, 208, 0.01);
+    box-shadow: 14px 0 0 rgba(187, 139, 208, 0.01), -14px 0 0 rgba(187, 139, 208, 0.01);
+}
+/*READ MORE TEXT COLOR*/
+#ct_amy_main1 .ct_as_readmore {
+    color: #b5b5b5;
+}
+/*READ MORE BACKGROUND COLOR*/
+#ct_amy_main1 .ct_as_readmore,
+#ct_amy_main1 .ct_amy_clickimg,
+#ct_amy_main1 .ct_amy_clicklink {
+    background-color: rgba(51, 51, 51, 0.87);
+}
+/*READ MORE TEXT COLOR ON HOVER*/
+#ct_amy_main1 .ct_as_readmore:hover,
+#ct_amy_main1 .ct_amy_clickimg:hover,
+#ct_amy_main1 .ct_amy_clicklink:hover {
+    color: #ffffff;
+}
+/*READ MORE BACKGROUND COLOR ON HOVER*/
+#ct_amy_main1 .ct_as_readmore:hover,
+#ct_amy_main1 .ct_amy_clickimg:hover,
+#ct_amy_main1 .ct_amy_clicklink:hover {
+    background-color: rgba(68, 68, 68, 0.89);
+}
+/*SVG COLOR FOR SLIDE STYLES 4,5 and 6*/
+#ct_amy_main1 .ct_amy_grid svg path {
+    fill: rgba(255, 255, 255, 0.79);
+}
+/*TILE BACKGROUND COLOR FOR SLIDE STYLES 2 AND 3*/
+#ct_amy_main1 .ct_amy_grid ct_amy_figure.ct_amy_effect_dexter,
+#ct_amy_main1 .ct_amy_grid ct_amy_figure.ct_amy_effect_ruby {
+    background-color: rgba(255, 255, 255, 0.19);
+}
+/*BUTTONS BACKGROUND COLOR FOR SLIDE STYLES 4, 5, 6 and 7*/
+#ct_amy_main1 .ct_amy_grid .ct_amy_clicklink:before,
+#ct_amy_main1 .ct_amy_grid .ct_amy_clickimg:before {
+    background-color: rgba(255, 255, 255, 0.79);
+    opacity: 0.7;
+}
+/*PARAGPRAH TEXT COLOR*/
+#ct_amy_main1 ct_amy_figcaption p,
+#ct_amy_main1 ct_amy_figcaption p a {
+    color: #f4f4f4;
+}
+/*NAVIGATION ARROWS COLOR*/
+#ct_amy_main1 .ct_amy_arrows_prev,
+#ct_amy_main1 .ct_amy_arrows_next {
+    color: #333;
+}
+/*ON HOVER COLOR GRADIENT*/
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_sadie ct_amy_figcaption::before {
+    background: rgba(35, 35, 35, 0.92);
+    background: -webkit-linear-gradient(top, rgba(35, 35, 35, 0.05) 0%, rgba(35, 35, 35, 0.92) 75%);
+    background: linear-gradient(to bottom, rgba(35, 35, 35, 0.05) 0%, rgba(35, 35, 35, 0.92) 75%);
+}
+/*IMAGE OPACITY FOR SLIDER STYLES 1, 2 AND 3*/
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_dexter img,
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_ruby img,
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_sadie img {
+    opacity: 1;
+}
+/*IMAGE OPACITY ON HOVER FOR SLIDER STYLES 2 AND 3*/
+
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_dexter:hover img,
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_ruby:hover img {
+    opacity: 0.1;
+}
+/*SLIDE BORDER RADIUS*/
+#ct_amy_main1 .ct_amy_cn_style,
+#ct_amy_main1 .ct_amy_grid ct_amy_figure img,
+#ct_amy_main1 ct_amy_section {
+    border-radius: 0px;
+}
+/*BORDER STYLE FOR SLIDER STYLES 2 AND 3*/
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_ruby p,
+#ct_amy_main1 ct_amy_figure.ct_amy_effect_dexter ct_amy_figcaption::after {
+    border-color: #ffffff;
+    border-width: 6px;
+}
+/*SELECT ONE OF THE RESPONSIVE STYLES*/
+/*RESPONSIVE GRID STYLE */
+@media screen and (max-width: 768px),
+screen and (max-height: 409px) {
+    #ct_amy_main1 .ct_as_arrow_nav {
+        display: none;
+    }
+    #ct_amy_main1 .bespoke-parent {
+        position: static;
+        overflow: visible;
+    }
+    #ct_amy_main1 .ct_as_shadow_holder {
+        display: none;
+    }
+    #ct_amy_main1 ct_amy_section {
+        position: static;
+        -webkit-transform: none!important;
+        -moz-transform: none!important;
+        -ms-transform: none!important;
+        -o-transform: none!important;
+        transform: none!important;
+        -webkit-transition: none!important;
+        -moz-transition: none!important;
+        -ms-transition: none!important;
+        -o-transition: none!important;
+        transition: none!important;
+        margin: 8px 0px!important;
+        float: left;
+        width: 90%;
+        padding-left: 5%;
+        opacity: 1!important;
+    }
+    #ct_amy_main1 ct_amy_section:first-child {
+        margin-top: 16px!important;
+    }
+}
+/*RESPONSIVE SLIDER STYLE */
+/*@media screen and  (max-width: 768px), screen and  (max-height: 409px)   {
+    #ct_amy_main1 ct_amy_section{
+        margin-left:0;
+        left:0;
+        width:90%;
+        padding-left:5%;
+    }
+}*/
+
+
+/*####################################################*/
+/*** AMY SLIDER STYLE 1 / CUSTOM 2(without comments)***/
+/*####################################################*/
+#ct_amy_main2 {
+    height: 800px;
+}
+#ct_amy_main2 h2,
+#ct_amy_main2 p {
+    font-weight: 300;
+}
+#ct_amy_main2 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+#ct_amy_main2 .ct_amy_figure:hover .ct_amy_cn_style {
+    border-radius: 0px;
+}
+#ct_amy_main2 .ct_amy_content_title a,
+#ct_amy_main2 .ct_amy_content_title {
+    color: #ffffff;
+}
+#ct_amy_main2 .ct_amy_content_title a {
+    background-color: rgba(121, 118, 171, 0.95);
+    box-shadow: 14px 0 0 rgba(121, 118, 171, 0.95), -14px 0 0 rgba(121, 118, 171, 0.95);
+}
+#ct_amy_main2 ct_amy_figure:hover .ct_amy_content_title a,
+#ct_amy_main2 ct_amy_figure:hover .ct_amy_content_title {
+    color: #ffffff!important;
+}
+#ct_amy_main2 ct_amy_figure:hover .ct_amy_content_title a {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 14px 0 0 rgba(255, 255, 255, 0), -14px 0 0 rgba(255, 255, 255, 0);
+}
+#ct_amy_main2 .ct_as_readmore,
+#ct_amy_main2 .ct_as_readmore .star-rating:before,
+#ct_amy_main2 .ct_as_readmore .star-rating,
+#ct_amy_main2 .ct_as_readmore .ct_amy_clickimg .amount {
+    color: #ffffff;
+}
+#ct_amy_main2 .ct_as_readmore,
+#ct_amy_main2 .ct_amy_clickimg,
+#ct_amy_main2 .ct_amy_clicklink {
+    background-color: rgba(121, 118, 171, 0.95);
+}
+#ct_amy_main2 .ct_as_readmore:hover,
+#ct_amy_main2 .ct_amy_clickimg:hover,
+#ct_amy_main2 .ct_amy_clicklink:hover,
+#ct_amy_main2 .ct_as_readmore .ct_amy_clickimg:hover .star-rating:before,
+#ct_amy_main2 .ct_as_readmore .ct_amy_clickimg:hover .star-rating,
+#ct_amy_main2 .ct_as_readmore .ct_amy_clickimg:hover .amount {
+    color: #4c4c4c;
+}
+#ct_amy_main2 .ct_as_readmore:hover,
+#ct_amy_main2 .ct_amy_clickimg:hover,
+#ct_amy_main2 .ct_amy_clicklink:hover {
+    background-color: #ffffff;
+}
+#ct_amy_main2 .ct_amy_grid svg path {
+    fill: rgba(77, 63, 77, 0.95);
+}
+#ct_amy_main2 .ct_amy_grid ct_amy_figure.ct_amy_effect_dexter,
+#ct_amy_main2 .ct_amy_grid ct_amy_figure.ct_amy_effect_ruby {
+    background-color: rgba(77, 63, 77, 0.95);
+}
+#ct_amy_main2 .ct_amy_grid .ct_amy_clicklink:before,
+#ct_amy_main2 .ct_amy_grid .ct_amy_clickimg:before,
+#ct_amy_main2 .ct_amy_grid .ct_amy_clickaddtocart:before {
+    background-color: rgba(77, 63, 77, 0.95);
+    opacity: 0.7;
+}
+#ct_amy_main2 ct_amy_figcaption p,
+#ct_amy_main2 ct_amy_figcaption p a {
+    color: #f4f4f4;
+}
+#ct_amy_main2 ct_amy_figcaption p a {
+    color: #f4f4f4;
+}
+#ct_amy_main2 .ct_amy_arrows_prev,
+#ct_amy_main2 .ct_amy_arrows_next {
+    color: rgba(77, 63, 77, 0.95);
+}
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_sadie ct_amy_figcaption::before {
+    background: rgba(76, 76, 76, 0.95);
+    background: -webkit-linear-gradient(top, rgba(76, 76, 76, 0.01) 0%, rgba(76, 76, 76, 0.95) 75%);
+    background: linear-gradient(to bottom, rgba(76, 76, 76, 0.01) 0%, rgba(76, 76, 76, 0.95) 75%);
+}
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_dexter img,
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_ruby img,
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_sadie img {
+    opacity: 1;
+}
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_dexter:hover img,
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_ruby:hover img {
+    opacity: 0.1;
+}
+#ct_amy_main2 .ct_amy_cn_style,
+#ct_amy_main2 .ct_amy_grid ct_amy_figure img,
+#ct_amy_main2 ct_amy_section {
+    border-radius: 0px;
+}
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_ruby p,
+#ct_amy_main2 ct_amy_figure.ct_amy_effect_dexter ct_amy_figcaption::after {
+    border-color: #ffffff;
+    border-width: 6px;
+}
+#ct_amy_main2 ct_amy_section p ins .amount,
+#ct_amy_main2 ct_amy_section p .amount,
+#ct_amy_main2 ct_amy_section .ct_amy_wooprice ins .amount,
+#ct_amy_main2 ct_amy_section .ct_amy_wooprice .amount {
+    color: #ffffff!important;
+}
+@media screen and (max-width: 768px),
+screen and (max-height: 409px) {
+    #ct_amy_main2 .ct_as_arrow_nav {
+        display: none;
+    }
+    #ct_amy_main2 .bespoke-parent {
+        position: static;
+        overflow: visible;
+    }
+    .ct_as_shadow_fx ct_amy_section:after {
+        display: none;
+    }
+    #ct_amy_main2 ct_amy_section {
+        position: static;
+        -webkit-transform: none!important;
+        -moz-transform: none!important;
+        -ms-transform: none!important;
+        -o-transform: none!important;
+        transform: none!important;
+        -webkit-transition: none!important;
+        -moz-transition: none!important;
+        -ms-transition: none!important;
+        -o-transition: none!important;
+        transition: none!important;
+        margin: 8px 0px!important;
+        float: left;
+        width: 90%;
+        padding-left: 5%;
+        opacity: 1!important;
+    }
+    #ct_amy_main2 ct_amy_section:first-child {
+        margin-top: 16px!important;
+    }
+}
+
+
+
+

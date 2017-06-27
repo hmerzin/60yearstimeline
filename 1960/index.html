@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://content.jwplatform.com/libraries/eVaVDdEN.js" />
+    <script>jwplayer.key="ABCdeFG123456SeVenABCdeFG123456SeVen==";</script> 
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </head>
+
+
+  <body>
+    <div id="bombModal" class="modal">
+      <p class="xbutton">x</p>
+      <div class="modalContent" id="content1">
+        <img src="bomb.png">
+      </div>
+      <p class="caption">(Photo: Tsar Bomba)</p>
+      <p class="description" id="bombaDescription">In 1961, the United States and United Kingdom introduced a draft treaty proposing a ban on all nuclear explosive tests except for underground explosions measuring less than 4.75 on the Richter scale.  <br/> <br/>The same year, the Soviet Union resumed atmospheric nuclear explosive testing, and after failed attempts to persuade the Soviets to desist, the United States itself resumed underground testing and then atmospheric testing a year later.  In the midst of this ferment, monitoring capacity allowed the international community to observe the growing nuclear threat.  In 1961, the Soviet Union’s test of the largest nuclear weapon ever detonated—known as “Tsar Bomba”—was promptly detected all around the world. 
+</p>
+    </div>
+
+    <div id="colorSigningModal" class="modal">
+      <p class="xbutton">x</p>
+      <div class="modalContent" id="content2">
+        <div id="video2"></div>
+      </div>
+      <p class="caption">(Photo: President Kennedy Signs the Partial Test Ban Treaty)</p>
+      <div id="space"></div>
+      <p class="description">The Cuban Missile Crisis the following year prompted both President Kennedy and Khrushchev to seek improved relations.  Both sides came together to negotiate the 1963 Limited Test Ban Treaty, which went into effect in October 1963 and now boasts 126 parties.</p>
+    </div>
+
+    <div id="handshakeModal" class="modal">
+      <p class="xbutton">x</p>
+      <div class="modalContent" id="content3">
+        <video width="500" height="400" id="video1">
+          <source src="./1967.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <p class="caption">(Photo: Outer Space Treaty Signed in Moscow)</p>
+      <p class="description" id="longDescription">On June 16, 1966, both the United States and the Soviet Union submitted
+
+draft treaties on activities in outer space.  The Treaty was opened for 
+
+signature on January 27, 1967.  On April 25 the Senate gave unanimous 
+
+consent to its ratification, and the Outer Space Treaty entered into force on 
+
+October 10, 1967.
+ 
+On the 19th of that month the General Assembly approved by acclamation a resolution commending the Treaty. It was opened for signature at Washington, London, and Moscow on January 27, 1967. On April 25 the Senate gave unanimous consent to its ratification, and the Outer Space Treaty entered into force on October 10, 1967.
+ 
+<br/> <br/>    The substance of the arms control provisions is in Article IV. This article restricts activities in two ways:
+ 
+<br/> <br/>    First, it contains an undertaking not to place in orbit around the Earth, install on the moon or any other celestial body, or otherwise station in outer space, nuclear or any other weapons of mass destruction.
+ 
+<br/> <br/>    Second, it limits the use of the moon and other celestial bodies exclusively to peaceful purposes and expressly prohibits their use for establishing military bases, installation, or fortifications; testing weapons of any kind; or conducting military maneuvers.
+ 
+<br/> <br/>    After the Treaty entered into force, the United States and the Soviet Union collaborated in jointly planned and manned space enterprises.</p>
+    </div>
+
+    <div id="bwSigningModal" class="modal">
+      <p class="xbutton">x</p>
+      <p class="caption" id="nptCaption" style="margin-top: 300px !important;">(Photo: Signing of the Non-Proliferation Treaty)</p>
+      <div class="modalContent" id="content4">
+        <img src="./otherSigning.png" id="otherSigning">
+        <div id="audio1"></div>
+      </div>
+      <div id="audioWrapper">
+        <!--<audio id="audio1" src="./1968 VO.wav"></audio>-->
+      </div>
+    </div>
+
+    <button id="bomb"></button>
+
+    <div id="centerWrapper">
+      <button id="signing1"></button>
+      <button id="handshake"></button>
+    </div>
+
+    <button id="bottom"></button>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+  </script>
+</html>
