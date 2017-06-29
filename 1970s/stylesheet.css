@@ -92,7 +92,8 @@ p {
   margin-bottom: 50px !important;
   font-size: 50px !important;
   text-align: center !important;
-  margin-left: 15px !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
   padding: 0 !important;
 }
 
@@ -143,11 +144,11 @@ body {
 
 .description {
   font-family: 'Helvetica Neue';
-  text-align: left;
+  text-align: center;
   color: white;
   font-size: 40px;
-  padding-left: 200px;
-  padding-right: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .modalContent {
